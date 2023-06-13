@@ -1,0 +1,49 @@
+.transaction
+  display: flex
+  padding: 10px 0
+  border-bottom: 1px solid #ececed
+  &:last-child
+    border-bottom: none
+
+  .ellipsis
+    max-width: 210px
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+
+  .fa-chevron-right
+    margin-left: 10px
+    font-size: 18px
+    color: #c7c7c9
+  
+  img
+    align-self: center
+    margin-right: 15px
+    border-radius: 4px
+
+  &__info
+    width: 100%
+
+  &__description
+    display: flex
+    justify-content: space-between
+
+  &__title
+    display: flex
+    justify-content: space-between
+    font-size: 18px
+    p
+      font-weight: 500
+
+  &__subtitle
+    font-size: 15px
+    color: #b2b2b5
+
+  &__percent
+    background-color: #f2f2f6
+    color: #ababaf
+    font-size: 12px
+    font-weight: 500
+    padding: 2px 4px
+    border-radius: 4px
+    
